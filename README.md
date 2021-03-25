@@ -39,8 +39,8 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories: 
-![](https://cdn.glitch.com/4bf89d53-7e0a-486e-b2a5-da5e0b52ce0b%2FgifWalkThrough.gif?v=1616641428258)
-![](https://cdn.glitch.com/4bf89d53-7e0a-486e-b2a5-da5e0b52ce0b%2FgifStrikeWalkThrough.gif?v=1616640690201)
+<img src="gifWalkThrough.gif" alt="Gif Walk Through">
+<img src="gifStrikeWalkThrough.gif" alt="Gif Strike Walk Through">
 
 ## Reflection Questions
 
