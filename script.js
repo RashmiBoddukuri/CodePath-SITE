@@ -3,7 +3,7 @@ const cluePauseTime = 333; //how long to pause in between clues
 const nextClueWaitTime = 1000; //how long to wait before starting playback of the clue sequence
 
 //Global Variables
-var pattern = [2, 2, 6, 1, 3, 5, 4, 6]; //static array: [2, 2, 6, 1, 3, 5, 4, 6], now code implments randomly generated array
+var pattern = []; //static array: [2, 2, 6, 1, 3, 5, 4, 6], now code implments randomly generated array
 var progress = 0;
 var gamePlaying = false;
 var tonePlaying = false;
@@ -26,7 +26,7 @@ function startGame() {
   progress = 0;
   gamePlaying = true;
   strikeCounter = 0;
-  //randomPattern();
+  randomPattern();
 
   // swap the Start and Stop buttons
   document.getElementById("startBtn").classList.add("hidden");
