@@ -1,0 +1,99 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: Tahoma, helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: slategrey;
+  color: white; 
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif; 
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px; 
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  display: inline;
+  height: 80%;  
+  width: 80%;
+}
+
+#button1 {
+    background: lightgreen;
+}
+#button1:active, #button1.lit {
+    background:green;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.glitch.com/4bf89d53-7e0a-486e-b2a5-da5e0b52ce0b%2Fspotify.png?v=1616619606832);
+    background-size: 150px 150px;
+    background-position: center; 
+}
+
+#button2 {
+    background: lightyellow;
+}
+#button2:active, #button2.lit {
+    background:yellow;
+    background-repeat: no-repeat;
+    background-image: url("https://cdn.glitch.com/4bf89d53-7e0a-486e-b2a5-da5e0b52ce0b%2Fsnapchat.png?v=1616619590598");
+    background-size: 150px 150px;
+    background-position: center; 
+}
+
+#button3 {
+    background: pink;
+}
+#button3:active, #button3.lit {
+    background:red;
+    background-repeat: no-repeat;
+    background-image: url("https://cdn.glitch.com/4bf89d53-7e0a-486e-b2a5-da5e0b52ce0b%2Fpinterest.png?v=1616621817508");
+    background-size: 150px 150px;
+    background-position: center; 
+}
+
+#button4 {
+    background: lightblue;
+}
+#button4:active, #button4.lit {
+    background:blue;
+    background-repeat: no-repeat;
+    background-image: url("https://cdn.glitch.com/4bf89d53-7e0a-486e-b2a5-da5e0b52ce0b%2Ftwitter.png?v=1616619611311");
+    background-size: 150px 150px;
+    background-position: center; 
+}
+
+#button5 {
+    background: navajowhite;
+}
+#button5:active, #button5.lit {
+    background:orange;
+    background-repeat: no-repeat;
+    background-image: url("https://cdn.glitch.com/4bf89d53-7e0a-486e-b2a5-da5e0b52ce0b%2Fsoundcloud.png?v=1616619596308");
+    background-size: 150px 150px;
+    background-position: center; 
+}
+
+#button6 {
+    background: plum;
+}
+#button6:active, #button6.lit {
+    background:indigo;
+    background-repeat: no-repeat;
+    background-image: url("https://cdn.glitch.com/4bf89d53-7e0a-486e-b2a5-da5e0b52ce0b%2Fyahoo.png?v=1616619616325");
+    background-size: 150px 150px;
+    background-position: center; 
+}
